@@ -21,7 +21,7 @@ Now we are ready lets run `ez-q`...
 This is the quickest way to get an `ez-q` instance up and running. To start an instance, run the command: 
 
 ```bash
-docker run -p 8080:8080 -e "REDIS_URL=redis://host.docker.internal:6379" ezasy/ez-q:0.0.1-alpha.2
+docker run -p 8080:8080 -e "REDIS_URL=redis://host.docker.internal:6379" ezasy/ez-q:0.0.1-alpha.3
 ```
 
 ### ...with Cargo
@@ -29,7 +29,7 @@ You may also wish to just install the project as a usable binary from cargo.
 
 ```bash
 # first install
-cargo install ez-q --version 0.0.1-alpha.2
+cargo install ez-q --version 0.0.1-alpha.3
 
 # then run it
 ez-q
