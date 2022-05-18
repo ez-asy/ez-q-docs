@@ -9,7 +9,7 @@ const config = {
   title: "ez-q",
   tagline: "A message queue built for simplicity",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  baseUrl: "/ez-q/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -52,7 +52,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "quickstart",
             position: "left",
             label: "Docs",
           },
@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/docs/quickstart",
               },
             ],
           },
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/ez-asy/ez-q",
               },
             ],
           },
